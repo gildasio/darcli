@@ -17,8 +17,11 @@ It's just a joke: `dark + cli`.
 * Categories
 * Disqus comments
 * SEO
+	* Description
+	* Keywords
+	* Open Cards to twitter, facebook, linkedin, google+ and others
 * Code post (but no highligth :] )
-* Atom AND RSS feeds
+* Atom **AND** RSS feeds
 
 ## Warnings
 
