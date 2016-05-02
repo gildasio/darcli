@@ -1,0 +1,38 @@
+
+<!-- Basic information about this page -->
+<meta charset="UTF-8">
+<link rel="icon" type="image/x-icon" href="/assets/img/fav.ico">
+<title>
+	{% if page.title %}
+		{{ page.title }} ::
+	{% endif %}
+	{{ site.title }}
+</title>
+
+<!-- Meta tag looking for mobile devices -->
+<meta name="viewport" content="initial-scale=1.5">
+<meta name="theme-color" content="#232323">
+
+<!-- Good information about this page -->
+<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+<meta name="keywords" content="{{ site.keywords }}{% if page.keywords %}, {{ page.keywords }}{% endif %}">
+<meta name="author" content="{{ site.name }}">
+
+<!-- Feed links -->
+<link rel="alternate" type="application/rss+xml" title="{{ site.name }}'s RSS Feed" href="{{ site.baseurl }}/rss.xml">
+<link rel="alternate" type="application/atom+xml" title="{{ site.name }}'s Atom Feed" href="{{ site.baseurl }}/atom.xml">
+
+<!-- Style and scripts files -->
+<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+
+<!-- Extra information about this page -->
+<link rel="license" type="text/plain" src="/assets/LICENSE">
+
+{% include open_graph_cards.html %}
+
+{% if site.ssl %}
+<script type="text/javascript">
+	if (window.location.protocol != "https:")
+		window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
+</script>
+{% endif %}
