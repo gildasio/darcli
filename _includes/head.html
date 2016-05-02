@@ -1,7 +1,7 @@
 
 <!-- Basic information about this page -->
 <meta charset="UTF-8">
-<link rel="icon" type="image/x-icon" href="/assets/img/fav.ico">
+<link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/assets/img/fav.ico">
 <title>
 	{% if page.title %}
 		{{ page.title }} ::
@@ -23,10 +23,10 @@
 <link rel="alternate" type="application/atom+xml" title="{{ site.name }}'s Atom Feed" href="{{ site.baseurl }}/atom.xml">
 
 <!-- Style and scripts files -->
-<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/style.css">
 
 <!-- Extra information about this page -->
-<link rel="license" type="text/plain" src="/assets/LICENSE">
+<link rel="license" type="text/plain" src="{{ site.baseurl }}/assets/LICENSE">
 
 {% include open_graph_cards.html %}
 

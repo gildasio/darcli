@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 html {
-	background-image: url("/assets/img/background.gif");
+	background-image: url("../img/background.gif");
 }
 
 body {
