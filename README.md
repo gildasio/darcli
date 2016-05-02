@@ -4,6 +4,10 @@
 
 You can see this theme on [gjuniioor.github.io/darcli](https://gjuniioor.github.io/darcli)
 
+## Screenshot
+
+![Screenshot of the them](assets/img/screenshot.png)
+
 ## Why the name?
 
 It's just a joke: `dark + cli`.
